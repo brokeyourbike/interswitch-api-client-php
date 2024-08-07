@@ -19,8 +19,9 @@ use BrokeYourBike\Interswitch\Interfaces\ConfigInterface;
 
 assert($config instanceof ConfigInterface);
 assert($httpClient instanceof \GuzzleHttp\ClientInterface);
+assert($psrCache instanceof \Psr\SimpleCache\CacheInterface);
 
-$apiClient = new Client($config, $httpClient);
+$apiClient = new Client($config, $httpClient, $psrCache);
 $apiClient->getAuthToken();
 ```
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.1...v0.1.2) (2024-08-07)
+
+
+### Bug Fixes
+
+* err code ([06df880](https://github.com/brokeyourbike/interswitch-api-client-php/commit/06df88034f095a0244adbdecb7050e9f7ab2f1db))
+* form ([a71c44f](https://github.com/brokeyourbike/interswitch-api-client-php/commit/a71c44ff8abdbd8cb9a9a973431f105b95159eef))
+
 ## [0.1.1](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.0...v0.1.1) (2024-08-07)
 
 

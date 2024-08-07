@@ -21,7 +21,7 @@ assert($config instanceof ConfigInterface);
 assert($httpClient instanceof \GuzzleHttp\ClientInterface);
 
 $apiClient = new Client($config, $httpClient);
-$apiClient->auth();
+$apiClient->getAuthToken();
 ```
 
 ## Authors

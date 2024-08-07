@@ -13,4 +13,5 @@ namespace BrokeYourBike\Interswitch\Enums;
 enum ErrorCodeEnum: string
 {
     case SUCCESS = '90000';
+    case BANK_UNAVAILABLE = '70120';
 }

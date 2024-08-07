@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.0...v0.1.1) (2024-08-07)
+
+
+### Bug Fixes
+
+* auth and transfer method ([7871bcf](https://github.com/brokeyourbike/interswitch-api-client-php/commit/7871bcf7b6cbdfacde3b19edcab4873b61321694))
+
 ## 0.1.0 (2024-08-07)
 
 

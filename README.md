@@ -2,6 +2,8 @@
 
 [![Latest Stable Version](https://img.shields.io/github/v/release/brokeyourbike/interswitch-api-client-php)](https://github.com/brokeyourbike/interswitch-api-client-php/releases)
 [![Total Downloads](https://poser.pugx.org/brokeyourbike/interswitch-api-client/downloads)](https://packagist.org/packages/brokeyourbike/interswitch-api-client)
+[![Maintainability](https://api.codeclimate.com/v1/badges/dcc8ebb690c612c6452e/maintainability)](https://codeclimate.com/github/brokeyourbike/interswitch-api-client-php/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/dcc8ebb690c612c6452e/test_coverage)](https://codeclimate.com/github/brokeyourbike/interswitch-api-client-php/test_coverage)
 
 Interswitch API Client for PHP
 

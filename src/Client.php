@@ -95,6 +95,9 @@ class Client implements HttpClientInterface
         return new TokenResponse($response);
     }
 
+    /**
+     * @link https://docs.interswitchgroup.com/docs/single-transfer
+     */
     public function transfer(TransactionInterface $transaction): TransferResponse
     {
         $options = [
@@ -105,7 +108,7 @@ class Client implements HttpClientInterface
             ],
             \GuzzleHttp\RequestOptions::JSON => [
                 'transferCode' => $transaction->getReference(),
-                'mac' => '',
+                'mac' => Mac::generate($transaction),
                 'initiatingEntityCode' => 'PBL',
                 'initiation' => [
                     'amount' => (string) $transaction->getCents(),

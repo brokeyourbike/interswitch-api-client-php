@@ -83,7 +83,7 @@ class Client implements HttpClientInterface
                 $this->config->getUsername(),
                 $this->config->getPassword(),
             ],
-            \GuzzleHttp\RequestOptions::BODY => [
+            \GuzzleHttp\RequestOptions::FORM_PARAMS => [
                 'grant_type' => 'client_credentials',
                 'scope' => 'profile',
             ],

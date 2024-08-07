@@ -85,13 +85,11 @@ class Client implements HttpClientInterface
             ],
             \GuzzleHttp\RequestOptions::BODY => [
                 'grant_type' => 'client_credentials',
-            ],
-            \GuzzleHttp\RequestOptions::QUERY => [
-                'grant_type' => 'client_credentials',
+                'scope' => 'profile',
             ],
         ];
 
-        $response = $this->httpClient->request(HttpMethodEnum::POST->value,$this->config->getAuthUrl(),$options);
+        $response = $this->httpClient->request(HttpMethodEnum::POST->value, $this->config->getAuthUrl(), $options);
         return new TokenResponse($response);
     }
 
@@ -145,7 +143,7 @@ class Client implements HttpClientInterface
         }
 
         $response = $this->httpClient->request(
-            HttpMethodEnum::PUT->value,
+            HttpMethodEnum::POST->value,
             (string) $this->resolveUriFor($this->config->getUrl(), 'v5/transactions/TransferFunds'),
             $options
         );

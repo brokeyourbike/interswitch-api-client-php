@@ -15,4 +15,5 @@ enum ErrorCodeEnum: string
     case SUCCESS = '90000';
     case BANK_UNAVAILABLE = '70120';
     case INVALID_ENTITY_CODE = '70012';
+    case FAILED = '90051';
 }

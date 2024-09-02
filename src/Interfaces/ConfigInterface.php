@@ -15,5 +15,7 @@ interface ConfigInterface
     public function getUrl(): string;
     public function getUsername(): string;
     public function getPassword(): string;
+    public function getEntityCode(): string;
+    public function getTransferCodePrefix(): string;
     public function getTerminalId(): string;
 }

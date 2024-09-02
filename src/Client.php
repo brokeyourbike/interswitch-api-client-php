@@ -105,9 +105,9 @@ class Client implements HttpClientInterface
                 'TerminalId' => $this->config->getTerminalId(),
             ],
             \GuzzleHttp\RequestOptions::JSON => [
-                'transferCode' => $transaction->getReference(),
+                'transferCode' => $this->config->getTransferCodePrefix() . $transaction->getReference(),
                 'mac' => Mac::generate($transaction),
-                'initiatingEntityCode' => 'PBL',
+                'initiatingEntityCode' => $this->config->getEntityCode(),
                 'initiation' => [
                     'amount' => (string) $transaction->getCents(),
                     'currencyCode' => (string) $transaction->getCurrency(),

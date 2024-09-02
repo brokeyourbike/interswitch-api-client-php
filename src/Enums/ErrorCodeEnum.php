@@ -12,8 +12,23 @@ namespace BrokeYourBike\Interswitch\Enums;
  */
 enum ErrorCodeEnum: string
 {
+    // Successful
     case SUCCESS = '90000';
+
+    // Approved by Financial Institution, Partial. Kindly reach out to Interswitch.
+    case APPROVED_UPDATE_TRACK_1 = '90010';
+
+    // Approved by Financial Institution, VIP. Kindly reach out to Interswitch.
+    case APPROVED_UPDATE_TRACK_2 = '90010';
+
+    // Approved by Financial Institution, Update Track 3. Kindly reach out to Interswitch.
+    case APPROVED_UPDATE_TRACK_3 = '90016';
+
     case BANK_UNAVAILABLE = '70120';
-    case INVALID_ENTITY_CODE = '70012';
-    case FAILED = '90051';
+
+    // Your terminal has not been configured on Quick Teller. Please contact Interswitch.
+    case UNRECOGNIZED_TERMINAL_OWNER = '70012';
+
+    // Insufficient Funds. Please contact your bank.
+    case INSUFFICIENT_FUNDS = '90051';
 }

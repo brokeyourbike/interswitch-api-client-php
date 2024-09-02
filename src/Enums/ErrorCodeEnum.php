@@ -19,7 +19,7 @@ enum ErrorCodeEnum: string
     case APPROVED_UPDATE_TRACK_1 = '90010';
 
     // Approved by Financial Institution, VIP. Kindly reach out to Interswitch.
-    case APPROVED_UPDATE_TRACK_2 = '90010';
+    case APPROVED_UPDATE_TRACK_2 = '90011';
 
     // Approved by Financial Institution, Update Track 3. Kindly reach out to Interswitch.
     case APPROVED_UPDATE_TRACK_3 = '90016';

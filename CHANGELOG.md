@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.2...v0.1.3) (2024-09-02)
+
+
+### Bug Fixes
+
+* entity and transfer code ([9c3e20e](https://github.com/brokeyourbike/interswitch-api-client-php/commit/9c3e20e7e9ce52d33ae9f1d885ad9294d280ea32))
+
 ## [0.1.2](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.1...v0.1.2) (2024-08-07)
 
 

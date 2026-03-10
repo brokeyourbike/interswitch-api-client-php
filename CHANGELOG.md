@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.5](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.4...v0.1.5) (2026-03-10)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump nesbot/carbon from 2.72.5 to 2.72.6 ([ece132d](https://github.com/brokeyourbike/interswitch-api-client-php/commit/ece132de800cd96e479b4310f6992f3f3ae31a09))
+* **deps-dev:** bump nesbot/carbon from 2.72.5 to 2.72.6 ([24d3b75](https://github.com/brokeyourbike/interswitch-api-client-php/commit/24d3b752d2f002892ce4809ea6d47a4b2c236bb0))
+* **deps-dev:** bump phpunit/phpunit from 9.6.20 to 9.6.33 ([83f3e64](https://github.com/brokeyourbike/interswitch-api-client-php/commit/83f3e64f336a54d619f979ec871f3c07fe64e189))
+* **deps-dev:** bump phpunit/phpunit from 9.6.20 to 9.6.33 ([c649f62](https://github.com/brokeyourbike/interswitch-api-client-php/commit/c649f62a750c3da8b9e0b10bb31f1e34a48bd234))
+
 ## [0.1.4](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.3...v0.1.4) (2024-09-02)
 
 

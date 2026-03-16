@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.2.0...v0.2.1) (2026-03-16)
+
+
+### Bug Fixes
+
+* no lock ([66ebcd5](https://github.com/brokeyourbike/interswitch-api-client-php/commit/66ebcd5840da2c9884f21052cc0321925a1da73b))
+
 ## [0.2.0](https://github.com/brokeyourbike/interswitch-api-client-php/compare/v0.1.5...v0.2.0) (2026-03-16)
 
 
